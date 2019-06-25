@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowLayout">
+
+        <!--系统有的属性，沿用声明就可以了，不需要format-->
+        <attr name="android:gravity"/>
+        <!--<attr name="horizonSpacing" format="dimension"/>-->
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout_Layout">
+        <attr name="android:layout_gravity"/>
+    </declare-styleable>
+</resources>
